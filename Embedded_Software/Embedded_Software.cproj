@@ -110,12 +110,12 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="week10\week10_2.c">
-      <SubType>compile</SubType>
-    </Compile>
-    <None Include="week10\week10_3.c">
+    <None Include="week10\week10_2.c">
       <SubType>compile</SubType>
     </None>
+    <Compile Include="week10\week10_3.c">
+      <SubType>compile</SubType>
+    </Compile>
     <None Include="week10\week10_1.c">
       <SubType>compile</SubType>
     </None>
