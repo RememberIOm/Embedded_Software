@@ -1,6 +1,6 @@
-.vs/
-Embedded_Software.atsln
+**/.vs/
+**/Debug/
 
-Embedded_Software/Debug/
-Embedded_Software/Embedded_Software.componentinfo.xml
-Embedded_Software/Embedded_Software.cproj
+*.atsln
+*.xml
+*.cproj
