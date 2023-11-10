@@ -3,17 +3,19 @@
 #include <util/delay.h>
 #include <avr/interrupt.h>
 
-#define DO 17
-#define RE 43
-#define MI 66
-#define FA 77
-#define SOL 97
-#define LA 114
-#define TI 129
-#define HDO 137
-
 #define ON 1
 #define OFF 0
+
+enum scale_timer {
+  DO = 17,
+  RE = 43,
+  MI = 66,
+  FA = 77,
+  SOL = 97,
+  LA = 114,
+  TI = 129,
+  HDO = 137
+};
 
 const int scale[] = {0, DO, RE, MI, FA, SOL, LA, TI, HDO};
 int state = ON;
