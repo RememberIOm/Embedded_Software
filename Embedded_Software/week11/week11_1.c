@@ -44,11 +44,11 @@ ISR(INT4_vect) {
 }
 
 int main() {
-  DDRB = 0x10; // ?? ??
-  DDRE = 0xef; // ??? ??
-  EICRB = 0x02; // ?? ??
+  DDRB = 0x10; // buzzer output
+  DDRE = 0xef; // switch input
+  EICRB = 0x02; // falling edge
   EIMSK = 0x10;
-  TCCR0 = 0x03; // 32??
+  TCCR0 = 0x03; // 32 scale
   TIMSK = 0x01;
   sei();
   
